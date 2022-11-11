@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Gotham";
+  src: url(../font/Gotham-Bold.otf);
+}
+@font-face {
+  font-family: "ADN_b";
+  src: url(../font/AppleSDGothicNeoL.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, white, #79b4dc);
+  width: 1920px;
+  height: 1080px;
+}
+
+.layout {
+  width: 940px;
+  height: 1000px;
+  border-radius: 32px;
+  background-color: white;
+  box-shadow: 0px 0px 30px -15px #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.layout h1 {
+  font-family: "Gotham";
+  text-align: center;
+  font-size: 50px;
+  margin-top: 150px;
+}
+.layout h2 {
+  font-family: "ADN_b";
+  font-size: 35px;
+  margin-top: 20px;
+  margin-left: 75px;
+}
+.layout .login-id-wrapper h5 {
+  margin-top: 20px;
+  font-family: "Gotham";
+  font-size: 22px;
+  margin-left: 78px;
+  margin-bottom: 0px;
+}
+.layout .login-id-wrapper #user_ID {
+  margin-left: 70px;
+  width: 800px;
+  height: 65px;
+  border-width: 3px;
+  border-radius: 88px;
+  border-color: #818181;
+}
+.layout .login-pw-wrapper h5 {
+  margin-top: 20px;
+  font-family: "Gotham";
+  font-size: 22px;
+  margin-left: 78px;
+  margin-bottom: 0px;
+}
+.layout .login-pw-wrapper #user_PW {
+  margin-left: 70px;
+  width: 800px;
+  height: 65px;
+  border-width: 3px;
+  border-radius: 88px;
+  border-color: #818181;
+}
+.layout .login-button-wrapper .Sign_In {
+  font-family: "Gotham";
+  font-size: 27px;
+  margin-top: 20px;
+  margin-left: 75px;
+  width: 800px;
+  height: 65px;
+  border-width: 3px;
+  border-radius: 88px;
+  border-color: #818181;
+  background-color: #a9e8ff;
+}
+.layout h6 {
+  margin-top: 50px;
+  font-family: "ADN_b";
+  font-size: 20px;
+  text-align: center;
+}
+.layout #signup_word {
+  margin-top: 20px;
+  font-family: "ADN_b";
+  font-size: 35px;
+  text-align: center;
+}
+.layout .signup-wrapper .Sign_up {
+  font-family: "Gotham";
+  font-size: 27px;
+  margin-bottom: 50px;
+  margin-left: 75px;
+  width: 800px;
+  height: 65px;
+  border-width: 3px;
+  border-radius: 88px;
+  border-color: #818181;
+  background-color: #a9e8ff;
+}
+
+/*# sourceMappingURL=style.css.map */

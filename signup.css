@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Gotham";
+  src: url(../font/Gotham-Bold.otf);
+}
+@font-face {
+  font-family: "ADN_b";
+  src: url(../font/AppleSDGothicNeoL.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1920px;
+  height: 1080px;
+  background: linear-gradient(45deg, white, #79b4dc);
+}
+
+.signup-box {
+  width: 940px;
+  height: 990px;
+  border-radius: 32px;
+  background-color: white;
+  box-shadow: 0px 0px 30px -15px #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.signup-box h1 {
+  font-family: "Gotham";
+  text-align: center;
+  font-size: 50px;
+  margin-top: 150px;
+}
+.signup-box h3 {
+  font-family: "ADN_b";
+  text-align: center;
+  font-size: 35px;
+  margin-top: 30px;
+}
+.signup-box .signup-id h5 {
+  font-family: "Gotham";
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 75px;
+  color: #818181;
+}
+.signup-box .signup-id #signup_ID {
+  margin-left: 70px;
+  width: 800px;
+  height: 65px;
+  border-width: 3px;
+  border-radius: 88px;
+  border-color: #818181;
+}
+.signup-box .signup-pw #password {
+  font-family: "Gotham";
+  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 75px;
+  color: #818181;
+}
+.signup-box .signup-pw #signup_PW {
+  margin-left: 70px;
+  width: 800px;
+  height: 65px;
+  border-width: 3px;
+  border-radius: 88px;
+  border-color: #818181;
+}
+.signup-box .signup-pw #signup_PW_check {
+  margin-top: 20px;
+  margin-left: 70px;
+  width: 800px;
+  height: 65px;
+  border-width: 3px;
+  border-radius: 88px;
+  border-color: #818181;
+}
+.signup-box .signup-email #e-mail {
+  font-family: "Gotham";
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 75px;
+  color: #818181;
+}
+.signup-box .signup-email #signup_Email {
+  margin-top: 20px;
+  margin-left: 70px;
+  width: 800px;
+  height: 65px;
+  border-width: 3px;
+  border-radius: 88px;
+  border-color: #818181;
+}
+.signup-box .signup-wrapper #signup_btn {
+  font-family: "Gotham";
+  font-size: 27px;
+  margin-top: 20px;
+  margin-left: 75px;
+  width: 800px;
+  height: 65px;
+  border-width: 3px;
+  border-radius: 88px;
+  border-color: #818181;
+  background-color: #a9e8ff;
+}
+
+/*# sourceMappingURL=signup.css.map */
